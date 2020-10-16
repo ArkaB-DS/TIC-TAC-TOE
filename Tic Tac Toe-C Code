@@ -185,7 +185,7 @@ int main(void)
             steps++;
         }
         }
-    printf("Game over!!\nDo you want to play again?(y\\n):\t");
+    printf("Game over! It's a draw!!\nDo you want to play again?(y\\n):\t");
     fflush(stdin);
     scanf("%c",&c);
     if (c=='y')
